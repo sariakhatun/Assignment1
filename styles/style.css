@@ -168,3 +168,45 @@ body{
 .ln2{
     background-color: #FFC239;
 }
+.banner-five{
+    background-image: url(../assets/quote-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: 45px 15px;
+    height: 208px;
+    width: 1140px;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 40px 48px;
+    border-radius: 16px;
+    margin: auto;
+}
+.aboutY{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+     font-style: normal;
+     font-size: 16px;
+     line-height: 24px;
+     color: #0E0E0E;
+     opacity: 70%;
+
+     
+}
+.dr{
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+     font-style: normal;
+     font-size: 20px;
+     line-height: 24px;
+     color: #0E0E0E;
+
+
+}
+.aboutYn{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+     font-style: normal;
+     font-size: 16px;
+     line-height: 24px;
+     color: #0E0E0E;
+     opacity: 60%;
+}
