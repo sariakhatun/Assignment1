@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #F1F1F3;
+}
 .banner-one{
     border: none;
     width:1080px ;
@@ -10,7 +13,7 @@
     border-radius: 24px;
     padding: 100px 80px;
     display: flex;
-   
+
     margin: auto;
     margin-top: 20px;
     
@@ -43,7 +46,125 @@
      border-radius: 8px;
      border: none;
 }
+.ExNewBD:hover, .lernMore:hover{
+    background-color: beige;
+    color: black;
+}
 .image{
   width: 474px;
   height: 400px;
+}
+.banner-two{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 24px;
+    width:1080px ;
+    height: 400px;
+    margin: 20px 200px 15px 325px;
+}
+.card-one{
+    margin: auto;
+    border: none;
+    width: 244px;
+    height: 200px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 24px ;
+
+}
+.innovation{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+     font-style: normal;
+     font-size: 20px;
+     line-height: auto;
+}
+.des{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+     font-style: normal;
+     font-size: 16px;
+     line-height: 24px;
+     width: 254px;
+     height: 72px;
+}
+.desc{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+     font-style: normal;
+     font-size: 16px;
+     line-height: 24px;
+     color: #0E0E0E;
+     opacity: 70%;
+    
+}
+.vision{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+     font-style: normal;
+     font-size: 40px;
+     line-height: auto;
+     color: #0E0E0E;
+    
+}
+.banner-three{
+    width: 1200px;
+    height: 48px;
+    margin: auto;
+    margin: 20px 250px 100px 325px;
+}
+.banner-four{
+    margin: auto;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    width: 1200px;
+    height: 325px;
+    margin: 20px 250px 100px 325px;
+
+}
+.card-two{
+    background-color: #DABFF7;
+    opacity: 100%;
+    width: 330px;
+    height: 280px;
+    border: none;
+    border-radius: 16px;
+    padding: 32px;
+}
+.lernMore{
+    background-color: #5490F5;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 18px 20px;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+.card-des{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+     font-style: normal;
+     font-size: 16px;
+     line-height: 24px;
+     color: #0E0E0E;
+     opacity: 70%;
+     width: 346px;
+    
+}
+.bg1{
+    background-color:#C6E4D6 ;
+
+}
+.ln1{
+    background-color: #09A15C;
+}
+.bg2{
+    background-color: #F7EBCF;
+
+}
+.ln2{
+    background-color: #FFC239;
 }
