@@ -46,7 +46,7 @@ body{
      border-radius: 8px;
      border: none;
 }
-.ExNewBD:hover, .lernMore:hover{
+.ExNewBD:hover, .lernMore:hover, .two:hover{
     background-color: beige;
     color: black;
 }
@@ -239,7 +239,7 @@ body{
     margin: auto;
     background-color:#FFFFFF ;
     border-radius: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     padding: 48px;
 }
 .bd{
@@ -262,4 +262,128 @@ span{
 .read{
     height: 22px;
     width: 150px;
+}
+.v{
+    text-align: center;
+}
+.r{
+    text-align: center;
+    width: 1104px;
+    height: 48px;
+    line-height: 24px;
+    margin: auto;
+}
+.one{
+    display: flex;
+    gap: 24px;
+    margin: 20px 250px 30px 380px;
+    width: 1280px;
+    /* width: 464px; */
+    border:none;
+
+}
+.two{
+    width: 270px;
+    height: 100px;
+    padding: 30px 40px 52px 40px;
+   
+    border-radius: 16px;
+    border: none;
+    background-color: #FFFFFF;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    opacity: 80%;
+    font-size: 40px;
+
+}
+.t{
+    background-color: #C6E4D6;
+}
+.input{
+    width: 1132px;
+    height: 64px;
+    background-color: #FFFFFF;
+    border: none;
+    text-align: center;
+    margin: 20px 250px 30px 390px;
+
+}
+.donate{
+    margin: auto;
+    text-align: center;
+}
+.d{
+    width: 151px;
+    margin-bottom: 50px;
+}
+.subscribe{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color: #0E0E0E;
+    opacity: 100%;
+    text-align: center;
+
+}
+.nine{
+    background-color: #C6E4D6;
+    height: 305px;
+    width: 1180px;
+    padding: 100px 8px;
+    margin: auto;
+    border-radius: 24px;
+    margin-bottom: 50px;
+
+}
+.email{
+    margin: 20px 0px 30px 100px;
+    width: 820px;
+    height: 56px;
+    font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  padding-left: 50px;
+}
+.fl{
+    display: flex;
+    gap: 0px;
+    align-items: center;
+   flex-direction: row;
+}
+.subs{
+    width: 150px;
+    height: 63px;
+    padding-top: 22px;
+    padding-bottom: 25px;
+    
+}
+.ten{
+    margin-top: 90px ;
+    background-color: #FFFFFF;
+    border: none;
+    height: 100px;
+    width: 1780px;
+    padding: 100px 50px;
+   
+}
+.bd-2{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    color: #0E0E0E;
+    opacity: 100%;
+    text-align: center;
+    padding-top: 0px;
+    margin-bottom: 50px;
+}
+.image1{
+    text-align: center;
+    
+}
+.img1{
+    margin: 5px;
 }
