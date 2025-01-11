@@ -172,7 +172,7 @@ body{
     background-image: url(../assets/quote-bg.png) ;
     background-repeat: no-repeat;
     background-position: 45px 15px;
-    height: 208px;
+    height: 190px;
     width: 1140px;
     background-color: #FFFFFF;
     border: none;
@@ -209,4 +209,57 @@ body{
      line-height: 24px;
      color: #0E0E0E;
      opacity: 60%;
+}
+.recent{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+     font-style: normal;
+     font-size: 16px;
+     line-height: 24px;
+     color: #0E0E0E;
+     opacity: 70%;
+}
+.banner-six{
+    margin: auto;
+    width: 1250px;
+    height: 120px;
+    margin-left: 340px;
+}
+.im{
+    /* width: 408px;
+    height: 306px; */
+    border-radius: 24px;
+}
+.banner-seven{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    width: 1150px;
+    height:310px ;
+    margin: auto;
+    background-color:#FFFFFF ;
+    border-radius: 24px;
+    margin-bottom: 30px;
+    padding: 48px;
+}
+.bd{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    color: #0E0E0E;
+     opacity: 80%;
+}
+span{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+     font-style: normal;
+     font-size: 16px;
+     line-height: 24px;
+     color: #0E0E0E;
+     opacity: 70%;
+}
+.read{
+    height: 22px;
+    width: 150px;
 }
