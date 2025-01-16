@@ -1,9 +1,11 @@
 *{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 body{
     background-color: #F1F1F3;
+    
+    
 }
 .banner-one{
     border: none;
@@ -11,12 +13,30 @@ body{
     height: 400px;
     background-color:#C6E4D6 ;
     border-radius: 24px;
-    padding: 100px 80px;
+    padding: 80px 100px;
     display: flex;
-
-    margin: auto;
+    gap: 64px;
+    /* margin-left: 325px; */
     margin-top: 20px;
+    margin-bottom: 80px;
     
+}
+.pillar{
+    width: 1280px;
+    height: 48px;
+    /* margin-left: 325px; */
+    margin-bottom: 32px;
+}
+.bx1{
+    width: 622px;
+    height: 326px;
+    background-position: 60px 117px;
+}
+.bx2{
+    width: 474px;
+    height: 400px;
+    background-position: 734px 80px;
+    opacity: 100%;
 }
 .title{
     font-family: "Fira Sans", serif;
@@ -32,6 +52,7 @@ body{
     font-weight: 700;
      font-style: normal;
      font-size: 56px;
+     margin-bottom: 20px;
 }
 .ExNewBD{
     color: white;
@@ -46,7 +67,7 @@ body{
      border-radius: 8px;
      border: none;
 }
-.ExNewBD:hover, .lernMore:hover, .two:hover{
+.ExNewBD:hover, .lernMore:hover, .two:hover,.read:hover{
     background-color: beige;
     color: black;
 }
@@ -56,21 +77,25 @@ body{
 }
 .banner-two{
     display: flex;
-    align-items: center;
-    /* justify-content: space-evenly; */
+    /* align-items: center;
+    justify-content: center; */
     gap: 24px;
-    width:1080px ;
-    height: 400px;
-    margin: 20px 200px 15px 325px;
+    width:1280px ;
+    height: 244px;
+    /* margin: 20px 200px 15px 325px; */
+    /* margin-left: 325px; */
+    margin-bottom: 80px;
+
 }
 .card-one{
-    margin: auto;
+    /* margin: auto; */
     border: none;
-    width: 244px;
-    height: 200px;
+    width: 254px;
+    height: 196px;
     border-radius: 16px;
     background-color: #FFFFFF;
-    padding: 24px ;
+    padding: 24px 24px;
+    gap: 24px;
 
 }
 .innovation{
@@ -106,32 +131,53 @@ body{
      font-size: 40px;
      line-height: auto;
      color: #0E0E0E;
+     margin-bottom: 24px;
     
 }
-.banner-three{
-    width: 1200px;
+.bd-2-0{
+    width: 1280px;
     height: 48px;
-    margin: auto;
-    margin: 20px 250px 100px 325px;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+     font-style: normal;
+     font-size: 16px;
+     line-height: 24px;
+     color: #0E0E0E;
+     opacity: 70%;
+}
+.banner-three{
+    width: 1280px;
+    height: 120px;
+    /* margin: auto; */
+    /* margin: 20px 250px 100px 325px; */
+    margin-bottom: 32px;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 325px; */
+
 }
 .banner-four{
-    margin: auto;
     display: flex;
     gap: 24px;
     align-items: center;
-    width: 1200px;
+    justify-content: center;
+    width: 1280px;
     height: 325px;
-    margin: 20px 250px 100px 325px;
+    /* margin: 20px 250px 100px 325px; */
+    margin-top: 20px;
+    margin-bottom: 32px;
+    /* margin-left: 325px; */
 
 }
 .card-two{
     background-color: #DABFF7;
     opacity: 100%;
-    width: 330px;
-    height: 280px;
+    width: 346px;
+    height: 261px;
     border: none;
     border-radius: 16px;
-    padding: 32px;
+    padding: 32px 32px;
+    gap: 24px;
 }
 .lernMore{
     background-color: #5490F5;
@@ -171,14 +217,17 @@ body{
 .banner-five{
     background-image: url(../assets/quote-bg.png) ;
     background-repeat: no-repeat;
-    background-position: 45px 15px;
-    height: 190px;
-    width: 1140px;
+    background-position: 23px 23px;
+    height: 160px;
+    width: 1232px;
     background-color: #FFFFFF;
     border: none;
-    padding: 40px 48px;
+    padding: 48px 24px;
     border-radius: 16px;
-    margin: auto;
+    margin-bottom: 80px;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 325px; */
 }
 .aboutY{
     font-family: "Fira Sans", serif;
@@ -188,6 +237,9 @@ body{
      line-height: 24px;
      color: #0E0E0E;
      opacity: 70%;
+     height: 96px;
+     width: 1232px;
+     margin-bottom: 12px;
 
      
 }
@@ -198,6 +250,8 @@ body{
      font-size: 20px;
      line-height: 24px;
      color: #0E0E0E;
+     width: 1232px;
+     height: 24px;
 
 
 }
@@ -209,6 +263,8 @@ body{
      line-height: 24px;
      color: #0E0E0E;
      opacity: 60%;
+     width: 1232px;
+     height: 24px;
 }
 .recent{
     font-family: "Fira Sans", serif;
@@ -218,29 +274,66 @@ body{
      line-height: 24px;
      color: #0E0E0E;
      opacity: 70%;
+     margin-bottom: 32px;
 }
 .banner-six{
-    margin: auto;
-    width: 1250px;
+    width: 1280px;
     height: 120px;
-    margin-left: 340px;
+    margin-bottom: 32px;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 325px; */
+}
+.vis{
+    height: 48px;
+    width: 1280px;
+    margin-bottom: 24px;
+}
+.rec{
+    height: 48px;
+    width: 1280px;
+    margin-bottom: 24px;
 }
 .im{
-    /* width: 408px;
-    height: 306px; */
+    width: 408px;
+    height: 306px; 
     border-radius: 24px;
+}
+.al-jazeera{
+    width: 134px;
+    height: 40px;
+    margin-bottom: 12px;
+}
+.Bdlaunch{
+    width: 744px;
+    height: 290px;
+    gap: 32px;
+    margin-bottom: 12px;
+
 }
 .banner-seven{
     display: flex;
     gap: 32px;
     align-items: center;
-    width: 1150px;
-    height:310px ;
+    width: 1184px;
+    height:306px ;
     margin: auto;
     background-color:#FFFFFF ;
     border-radius: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     padding: 48px;
+    /* margin-left: 325px; */
+}
+.first{
+    margin-bottom: 24px;
+}
+.banner-eight{
+    width:1280px ;
+    height: 464px;
+    margin-bottom: 80px;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 325px; */
 }
 .bd{
     font-family: "Fira Sans", serif;
@@ -249,8 +342,10 @@ body{
     font-size: 32px;
     color: #0E0E0E;
      opacity: 80%;
+     height: 38px;
+     width: 744px;
 }
-span{
+.sp{
     font-family: "Fira Sans", serif;
     font-weight: 400;
      font-style: normal;
@@ -258,35 +353,51 @@ span{
      line-height: 24px;
      color: #0E0E0E;
      opacity: 70%;
+     margin-bottom: 12px;
 }
+
 .read{
-    height: 22px;
+    
+    color: white;
+    background-color: #006A50;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+     font-style: normal;
     width: 150px;
+     font-size: 18px;
+    
+     border-radius: 8px;
+     border: none;
 }
 .v{
     text-align: center;
+    width:1280px ;
+    height: 48px;
+    margin-bottom: 24px;
 }
 .r{
     text-align: center;
-    width: 1104px;
+    width:1280px ;
     height: 48px;
     line-height: 24px;
-    margin: auto;
+    margin-bottom: 32px;
+
 }
 .one{
     display: flex;
-    gap: 24px;
-    margin: 20px 250px 30px 380px;
-    width: 1280px;
-    /* width: 464px; */
+    gap: 5px;
+    /* margin: 20px 250px 30px 380px; */
+    width: 1071px;
+    height: 128px;
     border:none;
+    text-align: left;
+
 
 }
 .two{
-    width: 270px;
-    height: 100px;
-    padding: 30px 40px 52px 40px;
-   
+    width: 240px;
+    height: 128px;
+    padding: 20px 20px;
     border-radius: 16px;
     border: none;
     background-color: #FFFFFF;
@@ -301,17 +412,22 @@ span{
     background-color: #C6E4D6;
 }
 .input{
-    width: 1132px;
+    width: 1032px;
     height: 64px;
     background-color: #FFFFFF;
     border: none;
     text-align: center;
-    margin: 20px 250px 30px 390px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    /* margin: 20px 250px 30px 390px; */
 
 }
 .donate{
     margin: auto;
     text-align: center;
+} 
+.form{
+    display: grid;
 }
 .d{
     width: 151px;
@@ -335,7 +451,7 @@ span{
     margin: auto;
     border-radius: 24px;
     margin-bottom: 50px;
-
+    /* margin-left: 325px; */
 }
 .email{
     margin: 20px 0px 30px 100px;
@@ -349,7 +465,7 @@ span{
 }
 .fl{
     display: flex;
-    gap: 0px;
+    gap: -10px;
     align-items: center;
    flex-direction: row;
 }
@@ -365,7 +481,7 @@ span{
     background-color: #FFFFFF;
     border: none;
     height: 100px;
-    width: 1780px;
+    width: 1400px;
     padding: 100px 50px;
    
 }
